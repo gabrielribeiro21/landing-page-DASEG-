@@ -1,0 +1,73 @@
+.cabecalho {
+  background-color: #f4f1de;
+}
+
+.contatos {
+  display: flex;
+  justify-content: space-around;
+  background-color: #335c67;
+  padding: 15px;
+}
+
+.contatos a {
+  color: #fff3b0;
+}
+
+.segundo-cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  margin-right: 420px;
+}
+
+.servicos {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.servicos .serv-1 {
+  border: 1px solid #335c67;
+  border-radius: 50px;
+  padding: 14px;
+  background-color: #fff3b0;
+  cursor: pointer;
+}
+
+.servicos .serv-1:hover {
+  background-color: #f2e8d9;
+  color: #335c67;
+}
+
+.servicos .serv-2 {
+  border: 1px solid #335c67;
+  border-radius: 50px;
+  padding: 14px;
+  background-color: #fff3b0;
+  cursor: pointer;
+}
+
+.servicos .serv-2:hover {
+  background-color: #f2e8d9;
+  color: #335c67;
+}
+
+.servicos .serv-3 {
+  border: 1px solid #335c67;
+  border-radius: 50px;
+  padding: 14px;
+  background-color: #43aa8b;
+  color: #fff3b0;
+  cursor: pointer;
+}
+
+.servicos .serv-3:hover {
+  color: #335c67;
+}
