@@ -1,5 +1,44 @@
 @media (max-width: 600px) {
   /* Estilos para telas menores que 300px de largura */
+  .slide {
+    display: block;
+    padding: 20px;
+  }
+
+  .frase {
+    text-align: center;
+    position: relative;
+    left: 2px;
+    top: -5px;
+    color: #335c67;
+  }
+  
+  .slide img {
+    width: 100%;
+    position: relative;
+    bottom: -8px;
+    right: 5px;
+    border-radius: 30px;
+  }
+
+  .tipos-seguros {
+    gap: 10px;
+  }
+
+  .menu {
+    padding: 15px;
+    gap: 25px;
+  }
+
+  .menu .servicos {
+    display: block;
+  }
+
+  .servicos li {
+    margin-top: 15px;
+    text-align: center;
+  }
+
   .segundo-cabecalho {
     display: block;
   }
@@ -18,3 +57,39 @@
     display: block;
   }
 }
+
+
+/* Reduzir o tamanho da imagem em tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .menu {
+    max-width: 100%;
+    gap: 15px;
+  }
+
+  .menu img {
+    max-width: 280px;
+  }
+
+  .servicos {
+    justify-content: center;
+  }
+
+  .slide {
+    gap: 30px;
+    text-align: center;
+  }
+
+  .slide .frase {
+    font-size: 20px;
+  }
+
+  .slide img {
+    
+    max-width: 380px;
+  }
+
+  .tipos-seguros {
+    gap: 100px;
+  }
+}
+

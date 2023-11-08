@@ -1,0 +1,16 @@
+.titulo-rodape {
+  border-bottom: 1px solid #edede9;
+  border-top: 1px solid #edede9;
+  text-align: center;
+  padding: 25px;
+  margin: 15px;
+}
+
+.infos-rodape {
+  list-style: none;
+  margin-left: 25px;
+  font-size: 20px;
+  margin: 15px;
+  padding: 25px;
+  background-color: #f4f1de;
+}
