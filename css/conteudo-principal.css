@@ -20,17 +20,32 @@
     color: #335c67;
 }
 
+.segundo-conteudo-principal {
+    padding: 30px;
+    margin: 30px;
+}
+
+.seguros-produtos {
+    border-bottom: 1px solid #edede9;
+    border-top: 1px solid #edede9;
+    font-size: 24px;
+    padding: 25px;
+    margin: 15px;
+    text-align: center;
+}
+
 .tipos-seguros{
     display: flex;
     list-style: none;
     margin: 15px;
     justify-content: space-around;
     padding: 25px;
+    gap: 22px;
     flex-wrap: wrap;
 }
 
 .tipos-seguros li {
-    color: #335c67;
+    color: #000000;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
@@ -42,14 +57,14 @@ img {
     cursor: pointer;
     flex-wrap: wrap;
     border-radius: 20px;
+    max-width: 260px;
 }
 
 .tipos-seguros li:hover {
     transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
-    color: #fff3b0;
+    transition: all 0.3s ease;
+    color: #335c67;
 }
-
 
 .solucoes {
     text-align: center;

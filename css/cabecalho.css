@@ -20,13 +20,13 @@
   padding: 20px;
 }
 
-img {
+.menu img {
   max-width: 100%;
+  margin-right: 25px;
 }
 
 .menu {
   display: flex;
-  gap: 350px ;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -34,46 +34,43 @@ img {
 .servicos {
   list-style: none;
   display: flex;
-  gap: 5px;
+  gap: 25px;
   flex: 1;
   flex-wrap: wrap;
 }
 
-.servicos .serv-1 {
+.servicos .serv-1 a , .serv-2 a {
   border: 1px solid #335c67;
+  color: #335c67;
+  font-size: 22px;
+  text-decoration: none;
   border-radius: 50px;
   padding: 14px;
   background-color: #fff3b0;
-  cursor: pointer;
 }
 
-.servicos .serv-1:hover {
-  background-color: #f2e8d9;
-  color: #335c67;
-}
-
-.servicos .serv-2 {
+.servicos .serv-3 a{
   border: 1px solid #335c67;
   border-radius: 50px;
   padding: 14px;
-  background-color: #fff3b0;
-  cursor: pointer;
-}
-
-.servicos .serv-2:hover {
-  background-color: #f2e8d9;
-  color: #335c67;
-}
-
-.servicos .serv-3 {
-  border: 1px solid #335c67;
-  border-radius: 50px;
-  padding: 14px;
+  font-size: 22px;
   background-color: #43aa8b;
   color: #fff3b0;
-  cursor: pointer;
+  text-decoration: none;
 }
 
-.servicos .serv-3:hover {
+.servicos .serv-1 a:hover {
+  background-color: #f2e8d9;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.servicos .serv-2 a:hover {
+  background-color: #f2e8d9;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.servicos .serv-3 a:hover {
   color: #335c67;
 }

@@ -1,5 +1,11 @@
 @media (max-width: 600px) {
   /* Estilos para telas menores que 300px de largura */
+  .contatos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
   .slide {
     display: block;
     padding: 20px;
@@ -21,40 +27,25 @@
     border-radius: 30px;
   }
 
-  .tipos-seguros {
-    gap: 10px;
-  }
-
   .menu {
-    padding: 15px;
-    gap: 25px;
+    gap: 20px;
   }
 
-  .menu .servicos {
-    display: block;
+  .menu .servicos li a{
+    font-size: 19px;
+    display: flex;    
   }
 
-  .servicos li {
-    margin-top: 15px;
-    text-align: center;
+  .servicos .serv-1 {
+    margin: 0 auto;
   }
 
-  .segundo-cabecalho {
-    display: block;
+  .servicos .serv-2 {
+    margin: 0 auto;
   }
 
-  img {
-    border-left: 5px solid #335c67;
-    border-right: 5px solid #335c67;
-  }
-
-  .servicos {
-    margin-left: -3%;
-    gap: 0;
-  }
-
-  .servicos li {
-    display: block;
+  .servicos .serv-3 {
+    margin: 0 auto;
   }
 }
 
@@ -63,15 +54,23 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .menu {
     max-width: 100%;
-    gap: 15px;
   }
 
   .menu img {
     max-width: 280px;
   }
 
-  .servicos {
-    justify-content: center;
+  .menu .servicos li a{
+    font-size: 19px;
+    display: flex;  
+  }
+
+  .servicos .serv-1 a , .serv-2 a {
+    font-size: 15px;
+  }
+
+  .servicos .serv-3 a{
+    font-size: 15px;
   }
 
   .slide {
